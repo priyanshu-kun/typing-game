@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+    font-family: sans-serif;
+}
+.site-body {
+    background: rgb(250, 237, 238);
+}
+
+.game-header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    background: pink;
+    color: white;
+}
+
+.main-body {
+    /* border: 1px solid black; */
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 2rem;
+}
+
+.main-body h1 {
+    /* font-size: 1.5rem; */
+    margin-bottom: 2rem;
+    color: hotpink;
+    opacity: 0.6;
+
+}
+/*  */
+.test-words {
+    width: 60rem;
+    height: 28vh;
+    font-size: 1.2rem;
+    margin: 1rem 0 3rem 0;
+    text-align: center;
+    color: rgb(107, 107, 107);
+    letter-spacing: 3px;
+    line-height: 1.7rem;
+    opacity: 0.8;
+    /* padding-top: 1rem; */
+    /* color: ; */
+    overflow: scroll;
+}
+
+
+.User-screen {
+    width: 60%;
+    padding: 2rem;
+    height:15vh;
+    font-size: 1.6rem;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    border: 3px solid rgba(255, 228, 232, 0.6);
+    background: rgb(250, 237, 238);
+    box-shadow: -10px -15px 10px rgba(255, 255, 255, 0.6),10px 15px 10px   rgba(255, 200, 211, 0.5),
+    inset -10px -15px 10px rgba(255, 249, 250, 0.6), inset 10px 15px 10px  rgba(253, 203, 213, 0.5);
+    color: hotpink;
+}
+
+
+.game-info {
+    width: 100%;
+    /* background: blue; */
+    display: flex;
+    flex-direction: row;
+   /* justify-content: space-evenly; */
+    margin-top: 40px;
+}
+
+.timer {
+    position: absolute;
+    left: 23%;
+    bottom: 14%;
+   font-size: 3rem;
+   padding: 25px 5rem;
+   text-align: center;
+   /* border: 1px solid; */
+   border-radius: 20px;
+   box-shadow: -10px -10px 8px rgba(255, 255, 255, 0.6),  10px 10px 10px rgba(255, 196, 205, 0.5);
+   color: grey;
+   /* transition: all 500ms ease; */
+}
+
+
+
+.btn {
+    position: absolute;
+    bottom: 15%;
+    right: 23%;
+    font-size: 1.4rem;
+    color: grey;
+    border: none;
+    background: none;
+    padding: 15px 5rem;
+    cursor: pointer;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: -10px -10px 8px rgba(255, 255, 255, 0.6),  10px 10px 10px rgba(255, 196, 205, 0.5);
+    transition: all 500ms;
+}
+.btn:hover {
+    transform: scale(1.1)
+}
+.btn:active {
+    
+    box-shadow:inset -10px -10px 8px rgba(255, 255, 255, 0.6),inset  10px 10px 10px rgba(255, 196, 205, 0.5);
+    transition: none!important;
+}
+
+
+
+
+::selection {
+    background: pink;
+    color: white;
+}
+
